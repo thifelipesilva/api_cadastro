@@ -4,7 +4,7 @@ const Person = mongoose.model('Person', {
     name: String,
     email: String,
     phone: String,
-    password: Number
+    password: String
 });
 
 module.exports = Person;
